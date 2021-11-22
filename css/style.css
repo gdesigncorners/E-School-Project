@@ -1,0 +1,292 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins', sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+
+/****************************************/
+/*E-School Project Css Here*/
+
+/****************************************/
+
+img{
+    max-width: 100%;
+}
+
+
+.btn-success{
+    display: inline-block;
+    padding: 8px 35px;
+    border-radius: 30px;
+    background-color: #21B573;
+    border: 1px solid #21B573;
+    font-size: 16px;
+    transition: .4s;
+}
+
+
+.btn-success:hover,
+.btn-success:focus{
+    background: transparent;
+    color: #21B573;
+}
+
+
+
+/* nav css start */
+.navbar .navbar-brand{
+    font-weight: 800;
+    color: #56548C;
+    font-size: 25px;
+}
+
+
+.navbar{
+    background-color: #F0FFF0;
+}
+
+
+.custom-menu .navbar-nav .nav-item .nav-link{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 20px;
+    color: #000;
+}
+
+
+.custom-menu .navbar-nav .nav-item .nav-link.active,
+.custom-menu .navbar-nav .nav-item .nav-link:focus{
+    border: 1px solid #000;
+    background-color: white;
+    font-weight: 900;
+}
+
+
+/* nav css end */
+
+/* banner css start */
+
+.banner-section{
+    background-color: #F0FFF0;
+}
+.banner-section .banner-left-text{
+    margin-top: 40px;
+}
+
+
+.banner-section .banner-left-text h5{
+    color: #FD511A;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+
+.banner-section .banner-left-text h1{
+    font-size: 48px;
+    line-height: 70px;
+}
+
+
+.banner-section .banner-left-text h1 span{
+    color: #21B573;
+}
+
+
+.banner-section .banner-left-text p{
+    font-size: 16px;
+    line-height: 36px;
+    font-weight: 600;
+    color: #6C6B6B;
+    margin-bottom: 25px;
+}
+
+
+.banner-section .banner-left-text a{}
+/* banner css end */
+
+/* feature css start */
+.inner-feature-div{
+    background-color: #F0FFF0;
+    padding: 40px 20px;
+    text-align: center;
+    transition: .2s;
+}
+
+
+.inner-feature-div h1{
+    margin-top: 20px;
+    padding: 0;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+}
+
+
+.inner-feature-div p{
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0;
+
+}
+
+
+.inner-feature-div:hover{
+    background-color: white;
+    box-shadow:  0px 20px 40px rgba(0, 0, 0, 0.1);;
+}
+
+
+/* feature css end */
+
+/* card section start */
+.card-top-text h1{
+    font-weight: 700;
+    font-size: 36px;
+}
+
+
+.card{
+    border: none;
+    padding: 20px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+}
+
+
+.card-img img{
+    border-radius: 11px;
+}
+.card-text h3{
+    padding: 0;
+    margin-top: 20px;
+}
+
+
+.card-text p{
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+
+.date{
+    margin-top: 40px;
+}
+
+
+.seat{
+    margin-top: 40px;
+}
+
+
+.date span{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+.date span .img-1{
+position: relative;
+top: -2px;
+}
+.seat span{
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 15px;
+}
+
+
+.seat span .img-2{
+    position: relative;
+    top: -2px;
+}
+
+
+/* card section end */
+
+/* testimonials css start */
+
+.testimonials-top-text h1{
+    font-weight: 700;
+    font-size: 36px;
+}
+
+
+.inner-testimonials-content img{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    margin-right: 50px;
+}
+
+
+.inner-testimonials-content{
+    display: flex;
+    align-items: center;
+}
+
+
+.inner-testimonials-content p{
+    font-size: 16px;
+    line-height: 30px;
+}
+/* testimonials css end */
+
+/* footer css start */
+.footer{
+    background-color: #282531;
+    padding: 50px 0px 20px 0px;
+}
+
+
+.inner-footer-text p{
+    color: white;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+
+.inner-footer-content h4{
+    color: white;
+}
+
+
+.inner-footer-content ul{
+    padding: 0;
+    list-style: none;
+}
+
+
+.inner-footer-content ul li{
+    padding: 7px 0;
+}
+
+
+.inner-footer-content ul li a{
+    color: white;
+}
+
+
+.copyright{
+    margin-top: 70px;
+}
+
+
+.copyright p{
+    color: #CDCDCD;
+    font-size: 16px;
+    line-height: 30px;
+
+}
+/* footer css end */
